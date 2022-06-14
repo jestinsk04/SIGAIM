@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+  <head>
+    <title>SIGAIM</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,900">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <div class="preloader">
+      <div class="preloader-body">
+        <div class="loader">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <p>Loading...</p>
+      </div>
+    </div>
+
+
+    <div class="page"></a>
+      <header class="section page-header rd-navbar-transparent-wrap">
+        <!--RD Navbar-->
+        <div class="rd-navbar-wrap">
+          <nav class="rd-navbar rd-navbar-transparent" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-lg-stick-up-offset="20px" data-xl-stick-up-offset="20px" data-xxl-stick-up-offset="20px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+            <div class="rd-navbar-collapse-toggle rd-navbar-fixed-element-1" data-rd-navbar-toggle=".rd-navbar-collapse"><span></span></div>
+
+            <div class="rd-navbar-main-outer">
+              <div class="rd-navbar-main-inner">
+                <div class="rd-navbar-main">
+                  <!--RD Navbar Panel-->
+                  <div class="rd-navbar-panel">
+                    <!--RD Navbar Toggle-->
+                    <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                    <!--RD Navbar Brand-->
+                    <div class="rd-navbar-brand">
+                      <!--Brand-->
+                      <a class="brand" href="index.html"><img class="brand-logo-dark" src="images/EPLOGO.png" alt="" width="146" height="22"/><img class="brand-logo-light" src="images/EPLOGO.png" alt="" width="155" height="22"/></a>
+                    </div>
+                  </div>
+                  <div class="rd-navbar-main-element">
+                    <div class="rd-navbar-nav-wrap">
+                      <ul class="rd-navbar-nav">
+                        <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="rd-nav-item"><a class="rd-nav-link" href="index.html">Analísis</a>
+                        </li>
+                        <li class="rd-nav-item"><a class="rd-nav-link" href="index.html">Investigación</a>
+                        </li>
+                        <li class="rd-nav-item"><a class="rd-nav-link" href="index.html">Inteligencia de mercados</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- Our Mission-->
+      <section class="section bg-default section-md">
+        <div class="container">
+          <div class="row row-30">
+            <div class="col-md-6">
+              <h2 class="title-icon"><span class="icon icon-default mercury-icon-target-2"></span><span>SIGAIM feat AL</h2>
+              <h3><span class="text-light">Sistema de Información de la Gerencia de Analísis e Investigación de Mercados</span></span></h3>
+              <p class="big">Comprende la integración de las diferentes fuentes de información (Estudios y Analisis de mercados) en la organización para registrar y analizar toda la información necesaria para la toma de decisiones</p>
+              <ul class="list-marked-2">
+                <li>Analísis de Mercados</li>
+                <li>Investigación de Mercados</li>
+                <li>Inteligencia de Mercados</li>
+              </ul><a class="button button-primary" href="#">Para ver información seleccionar un país</a>
+            </div>
+            <div class="col-md-6">
+              <div class="row">
+                <div class="container_1">
+                  <h1 class="list-marked-0">Seleccione un País</h1>
+                  <br><div id="map"></div>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="snackbars" id="form-output-global"></div>
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+    <!--coded by Starlight-->
+
+    <!---MAPA--->
+
+    <script type="text/javascript" src="js/worldmap/mapdata.js"></script>   
+    <script type="text/javascript" src="js/worldmap/worldmap.js"></script>
+    <script>
+      trial = document.querySelectorAll("[href='https://simplemwps.com']");
+      if(trial.length > 0){
+        trial[0].style.display="none"
+      }
+      $( document ).ready(function() {
+        console.log( "document loaded" );
+    });
+ 
+    $( window ).on( "load", function() {
+        console.log( "window loaded" );
+    });
+    //   $( document ).ready(function() {
+    //  document.querySelectorAll("[href='https://simplemwps.com']")[0].style.display="none";
+    // });
+    </script>
+  </body>
+</html>
