@@ -111,7 +111,7 @@ By default, top navigation bar uses "fixed" position
   position: relative;
   margin: 0;
   padding: 0;
-  border-right: 1px solid #2c3e50;
+  /*border-right: 1px solid #2c3e50;
   /* For IE, the outcast */
   zoom: 1;
   *display: inline;
@@ -194,7 +194,7 @@ SECTION WRAPS
 /* Intnro Wrap */
 
 #intro {
-  background: #2c3e50;
+  background: #021b30ad;
   padding-top: 60px;
   padding-bottom: 60px;
   color: white;
