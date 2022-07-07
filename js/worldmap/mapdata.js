@@ -962,7 +962,7 @@ var simplemaps_worldmap_mapdata={
       name: "CHILE",
       type: "circle",
       color: "#d10b0d",
-      url: "about.html"
+      url: ""
     },
     "1": {
       lat: 4.615,
@@ -970,7 +970,7 @@ var simplemaps_worldmap_mapdata={
       name: "COLOMBIA",
       type: "circle",
       color: "#d10b0d",
-      url: "contacts.html"
+      url: "colombia.html"
     },
     "2": {
       lat: -0.206,
