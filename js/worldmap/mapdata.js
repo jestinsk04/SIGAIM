@@ -962,7 +962,7 @@ var simplemaps_worldmap_mapdata={
       name: "CHILE",
       type: "circle",
       color: "#d10b0d",
-      url: ""
+      url: "chile.html"
     },
     "1": {
       lat: 4.615,
@@ -977,35 +977,40 @@ var simplemaps_worldmap_mapdata={
       lng: -78.509,
       name: "ECUADOR",
       type: "circle",
-      color: "#d10b0d"
+      color: "#d10b0d",
+      url: "ecuador.html"
     },
     "3": {
       lat: 40.42,
       lng: -3.692,
       name: "ESPAÑA",
       type: "circle",
-      color: "#d10b0d"
+      color: "#d10b0d",
+      url: "españa.html"
     },
     "4": {
       lat: 38.89,
       lng: -77.032,
       name: "EEUU",
       type: "circle",
-      color: "#d10b0d"
+      color: "#d10b0d",
+      url: "eeuu.html"
     },
     "5": {
       lat: 19.432,
       lng: -99.133,
       name: "MEXICO",
       type: "circle",
-      color: "#d10b0d"
+      color: "#d10b0d",
+      url: "mexico.html"
     },
     "6": {
       lat: -12.056,
       lng: -77.027,
       name: "PERU",
       type: "circle",
-      color: "#d10b0d"
+      color: "#d10b0d",
+      url: "peru.html"
     },
     "7": {
       lat: "6.42375",
