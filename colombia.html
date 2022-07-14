@@ -20,8 +20,24 @@
     <!-- Bootstrap CSS File -->
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
-    <!-- Libraries CSS Files -->
-    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- Vendor CSS-->
+    <link href="vendor/animsition/animsition.min.css" rel="stylesheet" media="all">
+    <link href="vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet" media="all">
+    <link href="vendor/wow/animate.css" rel="stylesheet" media="all">
+    <link href="vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" media="all">
+    <link href="vendor/slick/slick.css" rel="stylesheet" media="all">
+    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="vendor/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" media="all">
+    <link href="vendor/vector-map/jqvmap.min.css" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="css/theme.css" rel="stylesheet" media="all">
+
+    <!-- Fontfaces CSS-->
+    <link href="css/font-face.css" rel="stylesheet" media="all">
+    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <!-- <link href="vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
+    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all"> -->
 
     <!-- Main Stylesheet File -->
     <link href="css/stylee.css" rel="stylesheet" />
@@ -231,46 +247,110 @@
 
     <section id="investigacion" name="resume">
       <!--EDUCATION DESCRIPTION -->
-      <div class="container desc">
-        <div class="row">
-          <div class="col-lg-2 col-lg-offset-1">
-            <h5>Investigación</h5>
+      <div class="container-fluid">
+        <div class="row" style="padding: 15px;">
+          <div class="col-lg-2">
+            <!-- RECENT REPORT 2-->
+            <div class="recent-report2">
+                <h3 class="title-3">Investigacion</h3>
+                <div class="chart-info" style="padding-top: 15px;">
+                  <div class="row">
+                    <div class="col">
+                      <div class="rs-select2--dark rs-select2--md m-r-10">
+                            <select class="js-select2" name="property" onchange="mostrar(this.value)">
+                                <option selected="selected">Seleccione</option>
+                                <option value="2022">2022</option>
+                                <option value="2021">2021</option>
+                            </select>
+                            <div class="dropDownSelect2"></div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!-- END RECENT REPORT 2             -->
           </div>
-          <div class="col-lg-6">
-            <p>
-              <t>Estudios Realizdos</t><br />
-              Periodo <br />
-              <i>2020 - 2021 - 2022</i>
-            </p>
-          </div>
-          <div class="col-lg-3">
-            <p>
-              <sm>Proyectos en curso</sm><br />
-              <imp>
-                <sm>IN PROGRESS</sm>
-              </imp>
-            </p>
-          </div>
-
-          <div class="col-lg-6 col-lg-offset-3">
-            <p>
-              <t>Proyectos en curso</t><br />
-              Comunidad <br />
-              <i>Presencia de marca</i>
-            </p>
-          </div>
-          <div class="col-lg-3">
-            <p>
-              <sm>Proyectos en curso</sm><br />
-              <imp>
-                <sm>IN PROGRESS</sm>
-              </imp>
-            </p>
+          <div class="col-lg-4">
+              <!-- TASK PROGRESS-->
+              <div class="task-progress" id="task_progress_2022" style="display: none;">
+                  <h3 class="title-3">task progress 2022</h3>
+                  <div class="au-skill-container">
+                      <div class="au-progress">
+                          <span class="au-progress__title">Web Design</span>
+                          <div class="au-progress__bar">
+                              <div class="au-progress__inner js-progressbar-simple" role="progressbar" data-transitiongoal="90">
+                                  <span class="au-progress__value js-value"></span>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="au-progress">
+                          <span class="au-progress__title">HTML5/CSS3</span>
+                          <div class="au-progress__bar">
+                              <div class="au-progress__inner js-progressbar-simple" role="progressbar" data-transitiongoal="85">
+                                  <span class="au-progress__value js-value"></span>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="au-progress">
+                          <span class="au-progress__title">WordPress</span>
+                          <div class="au-progress__bar">
+                              <div class="au-progress__inner js-progressbar-simple" role="progressbar" data-transitiongoal="95">
+                                  <span class="au-progress__value js-value"></span>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="au-progress">
+                          <span class="au-progress__title">Support</span>
+                          <div class="au-progress__bar">
+                              <div class="au-progress__inner js-progressbar-simple" role="progressbar" data-transitiongoal="95">
+                                  <span class="au-progress__value js-value"></span>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <!-- END TASK PROGRESS-->
+              <!-- TASK PROGRESS-->
+              <div class="task-progress" id="task_progress_2021" style="display: none;">
+                  <h3 class="title-3">task progress 2021</h3>
+                  <div class="au-skill-container">
+                      <div class="au-progress">
+                          <span class="au-progress__title">Web Design</span>
+                          <div class="au-progress__bar">
+                              <div class="au-progress__inner js-progressbar-simple" role="progressbar" data-transitiongoal="90">
+                                  <span class="au-progress__value js-value"></span>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="au-progress">
+                          <span class="au-progress__title">HTML5/CSS3</span>
+                          <div class="au-progress__bar">
+                              <div class="au-progress__inner js-progressbar-simple" role="progressbar" data-transitiongoal="85">
+                                  <span class="au-progress__value js-value"></span>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="au-progress">
+                          <span class="au-progress__title">WordPress</span>
+                          <div class="au-progress__bar">
+                              <div class="au-progress__inner js-progressbar-simple" role="progressbar" data-transitiongoal="95">
+                                  <span class="au-progress__value js-value"></span>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="au-progress">
+                          <span class="au-progress__title">Support</span>
+                          <div class="au-progress__bar">
+                              <div class="au-progress__inner js-progressbar-simple" role="progressbar" data-transitiongoal="95">
+                                  <span class="au-progress__value js-value"></span>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <!-- END TASK PROGRESS-->
           </div>
         </div>
-        <!--/.row -->
-        <br />
-        <hr />
       </div>
       <!--/.container -->
     </section>
@@ -522,6 +602,7 @@
 
     <!-- JavaScript Libraries -->
     <script src="lib/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap-4.1/popper.min.js"></script>
     <script src="lib/bootstrap/js/bootstrap.min.js"></script>
     <script src="lib/php-mail-form/validate.js"></script>
     <script src="lib/chart/chart.js"></script>
@@ -534,6 +615,29 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
+
+    <!-- Vendor JS       -->
+    <script src="vendor/slick/slick.min.js">
+    </script>
+    <script src="vendor/wow/wow.min.js"></script>
+    <script src="vendor/animsition/animsition.min.js"></script>
+    <script src="vendor/bootstrap-progressbar/bootstrap-progressbar.min.js">
+    </script>
+    <script src="vendor/counter-up/jquery.waypoints.min.js"></script>
+    <script src="vendor/counter-up/jquery.counterup.min.js">
+    </script>
+    <script src="vendor/circle-progress/circle-progress.min.js"></script>
+    <script src="vendor/perfect-scrollbar/perfect-scrollbar.js"></script>
+    <script src="vendor/chartjs/Chart.bundle.min.js"></script>
+    <script src="vendor/select2/select2.min.js">
+    </script>
+    <script src="vendor/vector-map/jquery.vmap.js"></script>
+    <script src="vendor/vector-map/jquery.vmap.min.js"></script>
+    <script src="vendor/vector-map/jquery.vmap.sampledata.js"></script>
+    <script src="vendor/vector-map/jquery.vmap.world.js"></script>
+
+    <!-- Main JS-->
+    <script src="js/main.js"></script>
     <script>
       Morris.Line({
         element: "line-example",
@@ -575,6 +679,21 @@
     {label: "Mail-Order Sales", value: 20}
   ]
 });
+    </script>
+    <script type="text/javascript">
+      function mostrar(value){
+        const view_2022 = document.getElementById('task_progress_2022');
+        const view_2021 = document.getElementById('task_progress_2021');
+
+        console.log(value);
+        if (value==="2022") {
+          view_2022.style.display = "block";
+          view_2021.style.display = "none";
+        }else{
+          view_2022.style.display = "none";
+          view_2021.style.display = "block";
+        }
+      }
     </script>
   </body>
 </html>
